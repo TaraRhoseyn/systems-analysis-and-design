@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Interface Mockup</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1 ml-5">University Application Form</span>
+    </nav>
+    <div class="container">
+        <form>
+            <div class="form-group row">
+              <label for="text1" class="col-4 col-form-label">Name</label> 
+              <div class="col-8">
+                <input id="text1" name="text1" type="text" class="form-control">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="text5" class="col-4 col-form-label">Email address</label> 
+              <div class="col-8">
+                <input id="text5" name="text5" type="text" class="form-control">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="textarea" class="col-4 col-form-label">Personal Statement</label> 
+              <div class="col-8">
+                <textarea id="textarea" name="textarea" cols="40" rows="5" class="form-control"></textarea>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-4">What qualifications do you have? Select all that apply</label> 
+              <div class="col-8">
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input name="checkbox1" id="checkbox1_0" type="checkbox" class="custom-control-input" value="alevels"> 
+                  <label for="checkbox1_0" class="custom-control-label">A-Levels</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input name="checkbox1" id="checkbox1_1" type="checkbox" class="custom-control-input" value="btec"> 
+                  <label for="checkbox1_1" class="custom-control-label">BTEC</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input name="checkbox1" id="checkbox1_2" type="checkbox" class="custom-control-input" value="bachdegree"> 
+                  <label for="checkbox1_2" class="custom-control-label">Bachelor's Degree</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input name="checkbox1" id="checkbox1_3" type="checkbox" class="custom-control-input" value="mastersdegree"> 
+                  <label for="checkbox1_3" class="custom-control-label">Master's Degree</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input name="checkbox1" id="checkbox1_4" type="checkbox" class="custom-control-input" value="gsces"> 
+                  <label for="checkbox1_4" class="custom-control-label">GSCEs</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input name="checkbox1" id="checkbox1_5" type="checkbox" class="custom-control-input" value="phd"> 
+                  <label for="checkbox1_5" class="custom-control-label">PhD</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input name="checkbox1" id="checkbox1_6" type="checkbox" class="custom-control-input" value="olevels"> 
+                  <label for="checkbox1_6" class="custom-control-label">O-Levels</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="textarea2" class="col-4 col-form-label">List all qualifications</label> 
+              <div class="col-8">
+                <textarea id="textarea2" name="textarea2" cols="40" rows="5" class="form-control" aria-describedby="textarea2HelpBlock"></textarea> 
+                <span id="textarea2HelpBlock" class="form-text text-muted">List level, grade, and year obtained</span>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="text" class="col-4 col-form-label">Reference 1: Name</label> 
+              <div class="col-8">
+                <input id="text" name="text" type="text" class="form-control">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="text2" class="col-4 col-form-label">Reference 1: Email address</label> 
+              <div class="col-8">
+                <input id="text2" name="text2" type="text" class="form-control">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="text4" class="col-4 col-form-label">Reference 2: Name</label> 
+              <div class="col-8">
+                <input id="text4" name="text4" type="text" class="form-control">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="text6" class="col-4 col-form-label">Reference 2: Email Address</label> 
+              <div class="col-8">
+                <input id="text6" name="text6" type="text" class="form-control">
+              </div>
+            </div> 
+            <div class="form-group row">
+              <div class="offset-4 col-8">
+                <button name="save" class="btn btn-secondary">Save & Exit</button>
+                <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+    </div>
+</body>
+</html>
